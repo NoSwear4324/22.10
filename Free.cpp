@@ -29,10 +29,11 @@ void Free::save(ostream& file) const
 
 void Free::load(ifstream& file)
 {
-
+    getline(file, name);
+    getline(file, company);
 }
 
 bool Free::isavailable() const
 {
-    return false;
+    return true;
 }
