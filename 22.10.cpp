@@ -4,6 +4,7 @@
 
 int main()
 {
+    //Soft a;
     Free b("notepad", "ItStep");
     b.showInfo();
     cout << b.isavailable() << endl;
