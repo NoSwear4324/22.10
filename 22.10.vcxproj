@@ -125,10 +125,12 @@
   <ItemGroup>
     <ClCompile Include="22.10.cpp" />
     <ClCompile Include="Date.cpp" />
+    <ClCompile Include="Free.cpp" />
     <ClCompile Include="Soft.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Date.h" />
+    <ClInclude Include="Free.h" />
     <ClInclude Include="Soft.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

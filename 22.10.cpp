@@ -1,8 +1,8 @@
 ﻿#include <iostream>
 #include "Soft.h"
+#include "Free.h"
 
 int main()
 {
-    Soft a;
-
+    Free b;
 }
