@@ -16,7 +16,7 @@ int main()
     //d.showInfo();
     //cout << d.isavailable() << endl;
     //--------------------------------------------------
-    // (не обязательно писать ниже)
+    // (не обязательно писать ниже) 
     //vector<Soft*> admin;
 
     //ifstream fileRead("info-soft.txt");
