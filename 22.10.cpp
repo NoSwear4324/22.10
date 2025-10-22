@@ -16,44 +16,45 @@ int main()
     //d.showInfo();
     //cout << d.isavailable() << endl;
     //--------------------------------------------------
-    vector<Soft*> admin;
+    // (не обязательно писать ниже)
+    //vector<Soft*> admin;
 
-    ifstream fileRead("info-soft.txt");
-    Soft* ptrObj = nullptr;
+    //ifstream fileRead("info-soft.txt");
+    //Soft* ptrObj = nullptr;
 
-    if (fileRead.is_open())
-    {
-        while (!fileRead.eof())
-        {
-            string type = "";
-            getline(fileRead, type);
-            if (type == "Free")
-            {
-                ptrObj = new Free();
-                ptrObj->load(fileRead);
-                admin.push_back(ptrObj);
-            }
-            else if (type == "ShareWare")
-            {
-                ptrObj = new Shareware();
-                ptrObj->load(fileRead);
-                admin.push_back(ptrObj);
-            }
-            // else if type ...
+    //if (fileRead.is_open())
+    //{
+    //    while (!fileRead.eof())
+    //    {
+    //        string type = "";
+    //        getline(fileRead, type);
+    //        if (type == "Free")
+    //        {
+    //            ptrObj = new Free();
+    //            ptrObj->load(fileRead);
+    //            admin.push_back(ptrObj);
+    //        }
+    //        else if (type == "ShareWare")
+    //        {
+    //            ptrObj = new Shareware();
+    //            ptrObj->load(fileRead);
+    //            admin.push_back(ptrObj);
+    //        }
+    //        // else if type ...
 
-        }
-        fileRead.close();
-    }
+    //    }
+    //    fileRead.close();
+    //}
 
-    for (auto item : admin)
-    {
-        item->showInfo();
-    }
+    //for (auto item : admin)
+    //{
+    //    item->showInfo();
+    //}
 
-    cout << "================================\n";
+    //cout << "================================\n";
 
-    for (auto item : admin)
-    {
-        delete item;
-    }
+    //for (auto item : admin)
+    //{
+    //    delete item;
+    //}
 }
