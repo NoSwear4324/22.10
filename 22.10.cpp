@@ -1,6 +1,8 @@
 ﻿#include <iostream>
+#include "Soft.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Soft a;
+
 }
