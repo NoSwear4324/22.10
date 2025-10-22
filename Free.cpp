@@ -24,7 +24,7 @@ void Free::showInfo() const
 
 void Free::save(ostream& file) const
 {
-
+    file << "Free\n" << name << endl << company << endl;
 }
 
 void Free::load(ifstream& file)
